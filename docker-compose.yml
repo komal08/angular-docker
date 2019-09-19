@@ -1,8 +1,7 @@
 version: '2.3'
 
 services:
-  angular:
-    hostname: localhost
+  angular:    
     container_name: angular-container
     build: .
     ports:
