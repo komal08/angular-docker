@@ -1,13 +1,11 @@
 version: '2.3'
 
 services:
-  angular:    
+  angular:
+    hostname: localhost
     container_name: angular-container
     build: .
     ports:
-      - 5000:5000
-    vloumes:
-      - .:/code
-      - logvolume01:/var/log
+      - 80:80
     
         
